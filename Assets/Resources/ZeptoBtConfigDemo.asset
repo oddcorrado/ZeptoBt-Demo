@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd364369b2ffa08408eb2786d0c00aca, type: 3}
   m_Name: ZeptoBtConfigDemo
   m_EditorClassIdentifier: 
-  nameToNodes: []
+  nameToNodes:
+  - name: demo
+    node: NodeLeafDemoLog
