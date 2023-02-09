@@ -1,5 +1,6 @@
 root
 -repeatify
 -->
+---demo log coucou
 ---wait 1
 ---moveto 5 Player
