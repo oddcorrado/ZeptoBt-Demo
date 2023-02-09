@@ -1,3 +1,3 @@
 [submodule "ZeptoBt-SubModule"]
-	path = ZeptoBt-SubModule
+	path = Assets/ZeptoBt-SubModule
 	url = git@github.com:oddcorrado/ZeptoBt-SubModule.git
