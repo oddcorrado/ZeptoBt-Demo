@@ -1,0 +1,9 @@
+root
+-?
+--moveto 1 Player
+--repeatify
+--->
+----vel 1 0
+----wait 1
+----vel -1 0
+----wait 1
