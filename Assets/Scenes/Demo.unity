@@ -465,6 +465,22 @@ PrefabInstance:
       propertyPath: triggerTag
       value: Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 7825690290477533004, guid: 3b9697fb724faa64191eee705e790f52, type: 3}
+      propertyPath: triggers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7825690290477533004, guid: 3b9697fb724faa64191eee705e790f52, type: 3}
+      propertyPath: triggers.Array.data[2].tag
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7825690290477533004, guid: 3b9697fb724faa64191eee705e790f52, type: 3}
+      propertyPath: triggers.Array.data[2].name
+      value: DemoAgentB
+      objectReference: {fileID: 0}
+    - target: {fileID: 7825690290477533004, guid: 3b9697fb724faa64191eee705e790f52, type: 3}
+      propertyPath: triggers.Array.data[2].type
+      value: agentb
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9697fb724faa64191eee705e790f52, type: 3}
 --- !u!1 &1158591226

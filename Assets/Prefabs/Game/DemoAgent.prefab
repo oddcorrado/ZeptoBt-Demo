@@ -220,8 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d3dfd01f6240846921b995935cb542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerType: 1
-  filters: []
+  triggers: []
 --- !u!212 &7116518271330955052
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -389,10 +388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d3dfd01f6240846921b995935cb542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerType: Player
-  filters:
-  - name: 
-    tag: Player
+  triggers: []
 --- !u!114 &7825690290477533004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -405,10 +401,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d3dfd01f6240846921b995935cb542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerType: Wall
-  filters:
+  triggers:
   - name: 
     tag: Wall
+    type: Wall
+  - name: 
+    tag: Player
+    type: Player
 --- !u!1 &5473380871399181103
 GameObject:
   m_ObjectHideFlags: 0
