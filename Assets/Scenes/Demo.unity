@@ -475,11 +475,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7825690290477533004, guid: 3b9697fb724faa64191eee705e790f52, type: 3}
       propertyPath: triggers.Array.data[2].name
-      value: DemoAgentB
+      value: DemoPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 7825690290477533004, guid: 3b9697fb724faa64191eee705e790f52, type: 3}
       propertyPath: triggers.Array.data[2].type
-      value: agentb
+      value: demop
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9697fb724faa64191eee705e790f52, type: 3}
@@ -776,13 +776,25 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 365
       objectReference: {fileID: 0}
+    - target: {fileID: 1521543080044789559, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -81.1886
+      objectReference: {fileID: 0}
     - target: {fileID: 1521543080068595944, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
       propertyPath: m_SizeDelta.x
       value: 365
       objectReference: {fileID: 0}
+    - target: {fileID: 1521543080068595944, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 21.811401
+      objectReference: {fileID: 0}
     - target: {fileID: 1521543080215782256, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
       propertyPath: m_SizeDelta.x
       value: 365
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521543080215782256, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -184
       objectReference: {fileID: 0}
     - target: {fileID: 1521543080479902585, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
       propertyPath: m_AnchorMax.y
@@ -811,6 +823,10 @@ PrefabInstance:
     - target: {fileID: 1521543080658134201, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
       propertyPath: m_SizeDelta.x
       value: 365
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521543080658134201, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 121.8114
       objectReference: {fileID: 0}
     - target: {fileID: 1521543080836867977, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
       propertyPath: m_MatchWidthOrHeight
@@ -908,6 +924,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 365
       objectReference: {fileID: 0}
+    - target: {fileID: 1521543080873860095, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 71.8114
+      objectReference: {fileID: 0}
     - target: {fileID: 1521543081207136283, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
       propertyPath: m_SizeDelta.x
       value: 365
@@ -915,6 +935,39 @@ PrefabInstance:
     - target: {fileID: 1521543081267479657, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
       propertyPath: m_SizeDelta.x
       value: 365
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521543081267479657, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -134
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452730144144324062, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 362.2327
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452730144144324062, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.3847
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086699486733938834, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_text
+      value: '<#ff9900><b>[activate name activate] : </b><#ffff00>activates/deactivates
+        child game object
+
+        <#00ff00>controls activation of child gameobject
+
+        <#00eeff><b>name:
+        </b><#0099ff>child gameobject name, string, default to ''''
+
+        <#00eeff><b>activate:
+        </b><#0099ff>activate or deactivate, true/false, default to false'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086699486733938834, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086699486733938834, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f5f93c012c84884fb3c62cd45b3a623, type: 3}
