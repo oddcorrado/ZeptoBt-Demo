@@ -1,9 +1,13 @@
 root
--?
---moveto 1 Player
---repeatify
---->
-----vel 1 0
-----wait 1
-----vel -1 0
-----wait 1
+-repeatify
+-->
+---$ [init] ! zzz=1f
+---wait [tempo] 1 Skip
+---successify
+----> [init]
+-----thresholdify [plouf]
+------invertify
+-------trigger Wall
+-----$ zzz=1f
+---moveto [truc] zzz Player
+---$ zzz += 0.5f

@@ -1,10 +1,13 @@
 root
 -repeatify
 -->
----wait [tempo] 1 Skip
 ---$ [init] ! zzz=1f
+---wait [tempo] 1 Skip
+---successify
+----> [init]
+-----thresholdify [plouf] BBB
+------invertify
+-------trigger Wall
+-----$ zzz=1f
 ---moveto [truc] zzz Player
 ---$ zzz += 0.5f
----invertify
-----trigger Wall
----$ zzz=1f
