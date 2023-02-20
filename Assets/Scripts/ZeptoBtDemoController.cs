@@ -11,8 +11,10 @@ public class ZeptoBtDemoController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.V))
             zeptoBtViewer.ToggleShow();
+        if (Input.GetKeyDown(KeyCode.G))
+            zeptoBtViewer.ToggleQuickView();
 
-        if(zeptoBtViewer.IsActive)
+        if (zeptoBtViewer.IsActive)
         {
             if (Input.GetKeyDown(KeyCode.Z) && (Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.LeftControl)))
                 zeptoBtViewer.NodeUndo();
