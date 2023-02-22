@@ -9,9 +9,9 @@ public class ZeptoBtDemoController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.V))
+        if (Input.GetKeyDown(KeyCode.V) && !zeptoBtViewer.IsEditingText)
             zeptoBtViewer.ToggleShow();
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.G) && !zeptoBtViewer.IsEditingText)
             zeptoBtViewer.ToggleQuickView();
 
         if (zeptoBtViewer.IsActive)
